@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="container">
       <div className="header animate__animated animate__fadeIn">
-        <div className="logo-box">
+        <div className="logo-box animate__animated animate__fadeInDown">
           <img
             className="logo"
             src="https://res.cloudinary.com/cacafresca/image/upload/v1624251871/escudo-del-estado-de-aguascalientes-logo-82C7FC6ABE-seeklogo.com_nittev.png"
@@ -15,10 +15,13 @@ const Header = () => {
           <h1 class="heading-primary">
             <span class="heading-primary-main">aguascalientes</span>
             <span class="heading-primary-sub">
-              <span class="blink_me">&gt;</span>
+              {/* <span class="blink_me">&gt;</span> */}
               la tierra de la gente buena
             </span>
           </h1>
+          <a href="#" class="btn btn-white animate__animated animate__bounce">
+            Descubre mas ...
+          </a>
         </div>
       </div>
     </div>
